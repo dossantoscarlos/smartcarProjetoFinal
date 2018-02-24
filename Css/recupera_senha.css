@@ -1,0 +1,25 @@
+
+.div_recupera{
+	background-color: c6dce9 !important;
+	border: 2px solid lightgray !important;
+	width: 400px !important;
+	dispaly:block !important;
+	margin:0 auto !important;
+	padding-top:30px !important;
+	padding-left:30px !important;
+	box-shadow:12px 12px 5px #ccc !important;
+}
+.rotulo {
+	color:black !important;
+}
+input{
+	
+	box-shadow:5px 5px 5px #ccc !important;  
+	
+}
+
+input[Type='submit']{
+	margin-left:40% !important; 
+	height:40px !important;
+
+}

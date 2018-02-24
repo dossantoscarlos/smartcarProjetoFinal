@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Exibindo_email{
+	height:30px; 
+	padding:5px 10px;
+	background:#FF0000;
+	text-align:center !important;
+	color:#FFFFFF;
+	text-size:24pt !Important;
+	float:clear;
+}

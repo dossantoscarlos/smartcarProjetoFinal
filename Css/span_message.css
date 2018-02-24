@@ -1,0 +1,14 @@
+.span_mensagem{
+	border:solid #800000;
+  	border-radius:10px;
+    width: 200px;
+    text-align:center;
+    background-color:#2D3F50;
+    color:#FFFFFF;
+    font-size:20px;
+    padding: 14px;
+    margin-left: 50pt;
+    margin-bottom: 40pt;
+    float: left;
+}
+     

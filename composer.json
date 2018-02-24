@@ -1,0 +1,10 @@
+{
+    "name": "cliente/site-smart-car",
+    "authors": [
+        {
+            "name": "dossantoscarlos",
+            "email": "anjoazrael10@gmail.com"
+        }
+    ],
+    "require": {}
+}

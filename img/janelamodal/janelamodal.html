@@ -1,0 +1,142 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SmartCar | Seja bemvindo</title>
+
+<link rel="stylesheet" href="../../Css/style.css">
+
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="jquery.min.js"></script> 
+<script type="text/javascript">
+function open_modal( id ){
+	var maskHeight = $(document).height();
+	var maskWidth = $(window).width();
+	
+	$('#mask').css({'width':maskWidth,'height':maskHeight});
+ 
+	$('#mask').fadeIn(1000);	
+	$('#mask').fadeTo("slow",0.8);	
+	
+	//Get the window height and width
+	var winH = $(window).height();
+	var winW = $(window).width();
+              
+	$(id).css('top',  winH/2-$(id).height()/2);
+	$(id).css('left', winW/2-$(id).width()/2);
+	$(id).fadeIn(2000); 
+};
+$(document).ready(function() {	
+	
+	$('a[name=modal]').click(function(e) {
+		e.preventDefault();
+		open_modal( $(this).attr('href') );	
+	});
+	
+	open_modal( '#dialog' );//abrindo o div#modal ao carregar a página
+	
+	$('.window .close').click(function (e) {
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});
+});
+</script>
+</head>
+
+<body>
+
+<div id="boxes">
+
+<div id="dialog" class="window">
+<a href="../../pags/home.html" class="close"><img src="fechar.png"></a><br />
+		<div id="form-apresentacao">
+            <h2>Está interessado em um carro da SmartCar ?</h2>
+            <h4>Preencha o formulário abaixo<br />
+            para receber notícias sobre nossos automóveis !</h4>
+         
+           	<FORM METHOD="POST" class="todo-form">
+		Nome:
+		<INPUT TYPE="Text" SIZE=50 NAME="Nome" class="form">
+        <BR>
+		Endereço:
+		<INPUT TYPE="Text" SIZE=30 NAME="Endereço" class="form">
+        Complemento:
+		<INPUT TYPE="Text" SIZE=10 NAME="Complemento" class="form">
+        <br>
+		Bairro:
+		<INPUT TYPE="Text" SIZE=25 NAME="Bairro" class="form">
+		Estado:
+<SELECT MUTIPLE NAME="Estados" class="form">
+	<option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AM">Amazonas</option>
+    <option value="AP">Amapá</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espirito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="PR">Paraná</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SE">Sergipe</option>
+    <option value="SP">São Paulo</option>
+    <option value="TO">Tocantins</option>
+</SELECT>
+	<br>
+	CEP:
+	<INPUT TYPE="Text" SIZE=20 NAME="CEP" class="form">
+	<BR>
+	Tel.Fixo:
+	<INPUT TYPE="Text" SIZE=20 NAME="Tel.Res" class="form">
+    Celular:
+	<INPUT TYPE="Text" SIZE=20 NAME="Tel.Cel" class="form">
+    
+    	<div class="button2">
+			<input type="submit" value="Enviar" class="button-form">
+        	<input type="reset" value="Apagar Campos" class="button-form">
+		 </div>      
+</FORM>
+
+
+        
+	<h4>Para outras informações, <br>
+            continue a navegar no site da SmartCar</h4>
+            <br>
+            <a href="../../pags/home.html" target="_top" class="button grow">Clique aqui</a>
+       </div>
+
+</div>
+
+
+</div>
+
+<!-- Máscara para cobrir a tela -->
+  <div id="mask"></div>
+
+</div>
+
+
+  
+  Aqui é a nossa pagina né
+	
+</body>
+</html>

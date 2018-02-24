@@ -1,0 +1,160 @@
+
+a{
+text-decoration:none;
+}
+body{
+font :400 16px Oswald;
+}
+
+
+.message{
+	diplay:block;
+	width:400px;
+	background-color:#999;
+	color:#FFFFFF;
+	text-align:center;
+	margin:40px auto;
+	padding:5px;
+	border:outset red 2px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;	
+}
+
+.uri{
+	list-style:none;
+	margin-left:-20px;
+}
+
+.uri li {
+	margin-left: 3px;
+	width:200px;
+}
+	
+.uri a{	
+	color:#CCCCCC !important;
+}
+.uri a:hover{
+	color:red !important;
+}
+
+
+#login{
+width:300px;
+margin:0 auto;
+display:block;
+position:relative;
+background-color:#2D3F50;
+top :100px;
+border:1px solid #f1f1f1;
+padding:25px;
+}
+
+.logo #logo{
+	
+	display:block !important;
+	width:250px !Important;
+	height:58px;
+	margin:0 auto;
+	margin-top:70px;
+	margin-bottom:-90px;
+
+}
+#cadastrar{
+boder-botton-left-radius :8px;
+boder-botton-right-radius :15px;
+-webkit-border-bottom-left-radius :8px;
+-webkit-border-bottom-right-radius :15px;
+-moz-border-radius-bottomleft-radius : 8px;
+-moz-border-radius-bottomright-radius :15px;
+height:40px;
+width:120px;
+position:absolute;
+right:0;
+top:0;
+background:#f1f1f1;
+text-align:center;
+
+}
+#cadastrar:hover a {
+color:#fff;
+
+}
+#cadastrar:hover{
+background:#2D3F50;
+color:#fff;
+
+}
+#cadastrar a {
+	margin-top:-15px;
+	display:block;
+	padding-top:30px;
+	color:#7F0000;
+	font:400 18px Oswald;
+}
+.form label{
+	display:block;
+	position:relative;
+	padding-top:5px;
+}
+.acomodar{
+background-color:#2D3F50;
+margin : 0 auto;
+width:250px;
+text-align:center;
+color:#fff;
+}
+.txt{
+width:250px;
+border:thin solid #f1f1f1;
+
+}
+
+.form input{
+	margin:0 auto;
+	border:thin solid #f1f1f1;
+	height:30px;
+}
+
+.form input:Hover{
+	
+	border:thin solid #F00;
+	box-shadow:0 2px 15px #F00;
+	-webkit-box-shadow: 0 2px 10px #F00;
+	-moz-box-shadow: 0 2px 10px #F00;
+}
+.sb{
+	margin-top:2px;
+	display:block;
+	border::none;
+	width:220px;
+	height:40px;
+	margin-left:15px !important;
+	margin-top:20px !important;
+	cursor:pointer;
+	font :400 18px Oswald;
+	color:#666;
+}
+.sb:hover{
+background #09f;
+color :#fff;
+}
+/*classe de herança*/
+.bradius, .sb{
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+.fleft{
+float:left;
+}
+.frigth{
+float : right;
+}
+/*multiplos-estilos*/
+.form input, .sb , .sb:hover, #cadastrar:hover , #cadastrar,#login{
+transition :all 0.5s linear ;
+-webkit-transition :all 0.5s linear ;
+mzo-transition :all 0.5s linear ;
+}
+

@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#corpo-central{
+
+	width: 800px;
+	height: 600px;
+	background: #000;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px solid #000;
+}
+
+#parteum-corpo{
+
+	width: 750px;
+	height: 80px;
+	background: #0000CD;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px solid #000;
+}
+
+.proposta{
+
+	width: 300px;
+	height: 50px;
+	border: 3px solid #000;
+	margin-top: 10px;
+	margin-right: 5px;
+	float: right;
+}
+
+#partedois-corpo{
+
+	width: 750px;
+	height: 100px;
+	background: #0000CD;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px solid #000;
+}
+
+.propaganda-carros{
+	width: 120px;
+	height: 80px;
+	/*background: #0000CD;*/
+	border: 3px solid #000;
+	margin-top: 5px;
+	margin-left: 20px;
+	float: left;
+	
+}
+
+
+#partetres-corpo{
+
+	width: 750px;
+	height: 350px;
+	background: #0000CD;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 3px solid #000;
+}
+
+#menu-lateral{
+
+	width: 200px;
+	height: 220px;
+	background: #0000CD;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 3px solid #000;
+}
+
+.valor-carro{
+
+	width: 200px;
+	height: 100px;
+	background: #C0C0C0;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 3px solid #000;
+}
+
+#texto-valor{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	padding: 5px;
+
+}
+
+#clear{
+	clear:both;
+}
+
+#foto-carro{
+
+	width: 500px;
+	height: 330px;
+	margin-top: -335px;
+	margin-right: 5px;
+	border: 3px solid #FFF;
+	float: right;
+}
+
